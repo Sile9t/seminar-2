@@ -43,7 +43,8 @@
             let withoutSpaces = text.length - countSpaces(text);
             result.innerHTML = '<b>Длина текста:</b> ' +
                 text.length + ' символов<br>' +
-                '<b>Без пробелов:</b> ' + withoutSpaces + '<br>';
+                '<b>Без пробелов:</b> ' + withoutSpaces + '<br>'
+		'<b>Количетсво слов:</b> ' + countWords + '<br>';
         });
 
         textArea.addEventListener('keyup', function(){
